@@ -18,6 +18,7 @@ The first user starts the session as the **manager** (server/host). Other users 
   Check with:
   ```bash
   java -version
+  ```
   
 ## Run the Application (2 JARs)
 
@@ -25,10 +26,11 @@ The first user starts the session as the **manager** (server/host). Other users 
 
 ```bash
 java -jar CreateWhiteBoard.jar <serverIPAddress> <serverPort> <username>
+```
 
 ### 2) Start the whiteboard as **client** (creates/hosts the session)
 
 ```bash
 java -jar JoinWhiteBoard.jar <serverIPAddress> <serverPort> <username>
-
+```
 
